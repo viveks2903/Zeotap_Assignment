@@ -1,0 +1,30 @@
+.toolbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .toolbar button {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .toolbar button:hover {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .toolbar input[type="color"],
+  .toolbar input[type="number"] {
+    padding: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    width: auto;
+  }
+  

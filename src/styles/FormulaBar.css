@@ -1,0 +1,20 @@
+.formula-bar {
+    display: flex;
+    padding: 10px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .formula-bar input {
+    flex: 1;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .formula-bar input:focus {
+    border-color: #4caf50;
+  }
+  

@@ -1,0 +1,25 @@
+.spreadsheet {
+    display: grid;
+    gap: 1px;
+    background-color: #ccc;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 14px;
+    outline: none;
+    padding: 5px;
+  }
+  
+  .cell:focus {
+    border-color: #4caf50;
+    background-color: #eaffea;
+  }
+  
